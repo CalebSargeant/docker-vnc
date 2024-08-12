@@ -3,13 +3,13 @@ name: Docker Image CI
 on:
   push:
     branches:
-    - master
+    - main
     paths:
     - Dockerfile
     - .github/workflows/docker-image.yml
   pull_request:
     branches:
-    - master
+    - main
     paths:
     - Dockerfile
     - .github/workflows/docker-image.yml
